@@ -225,7 +225,6 @@ public class ResourceCentreTest {
 		
 		isReturned = ResourceCentre.doReturnChromebook(chromebookList, "CB0013");
 		assertFalse("Test that item already returned cannot be returned again", isReturned);
-
 		
 }
 	
